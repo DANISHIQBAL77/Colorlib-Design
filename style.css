@@ -3,23 +3,63 @@ body{
     padding: 0px;
 }
 .container{ 
-    position: relative;
+    
 }
 @media (max-width:430px){
     header{
+        display: flex;
+        flex-wrap: wrap;
         height: 55px !important;
         width: 380px !important;
         margin: 0px !important;
+        justify-content: space-between !important;
     }
     header .liblogo img{
         height: 30px !important;
+        margin:  0px !important;
+        padding: 0px !important;
     }
     header .headerimages{
-        display: none !important
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100px !important;
+        height: 30px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    header .headerimages .img1{
+        display: none !important;
+    }
+    header .headerimages .img2{
+        display: none !important;
+    }header .headerimages .img3{
+        display: none !important;
     }
     header .headerimages .img4{
-        display: block !important;
-        visibility: visible !important;
+        height: 54px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+        margin-top: -13px !important;
+    }
+    header .headerimages .img4 img{
+        height: 70px !important;
+        width: 65px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    header .headerimages .img5{
+        height: 50px !important;
+        width: 40px !important;
+        margin-top: -15px !important;
+        padding-top: 6px !important;
+    }
+    header .headerimages .img5 img{
+        margin: 9px 0px 0px 5px  !important;
+        height: 30px !important;
+        width: 30px !important;
+        padding: 0px !important;
     }
     .about{
         display: none !important
@@ -48,7 +88,7 @@ body{
         display: none !important
     }
     .navbar i{
-        display: none !important
+        display: none !important;
     }
     header .name .shop{
         display: none !important;
@@ -66,6 +106,141 @@ body{
     .sale span{
         display: block !important;
     }
+    .herosection{ 
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 400px !important;
+        background-image: url(/images/Screenshot\ 2024-08-03\ 083740.png) !important;
+        background-size: 400px !important;
+        height: 600px !important;
+    }
+    .herosection .hero_content{
+        width: 200px !important;
+        margin: 0px !important ;
+        padding: 40px 0px 0px 10px !important;
+    }
+    .fashion{
+        width: 400px !important;
+        margin: 15px !important;
+    }
+    .fashion .mensfashion{
+        background-size: 500px !important;
+        height: 430px !important;
+        padding-top: 110px !important;
+    }
+    .fashion .womenfashion{
+        display: none !important;
+    }
+    .fashion .babyfashion{
+        display: none !important;
+    }
+    .weeklytrending{
+        width: 380px !important;
+        margin: 0px !important;
+    }
+    .weeklytrending h2{
+        width: 900px !important;
+        font-size: 25px !important;
+    }
+    .weeklytrending a{
+        display: none !important;
+    }
+    .products{
+        width: 380px !important;
+        margin: 0px !important;
+        height: 700px !important;
+    }
+    .products .girlimg1{
+        margin-left: 20px !important;
+        width: 400px !important;
+        height: 600px !important;
+        background-size: 400px !important;
+    }
+    .products .girlimg1 .customclass{
+        padding-top: 500px !important;
+        margin-left: 70px !important;
+    }
+    .products .girlimg2{
+        display: none !important;
+    }
+    .products .girlimg3{
+        display: none !important;
+    }
+    .products .girlimg4{
+        display: none !important;
+    }
+    .testimonial{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 400px !important;
+        margin: 0px !important;
+         padding: 0px !important;
+    }
+    .testimonial .leftarrow{
+        display: none !important;
+    }
+    .testimonial .rightarrow{
+        display: none !important;
+    }
+    .favouriteproducts{
+        margin: 0px !important;
+        padding: 0PX !important;
+        width: 400px !important;
+    }
+    .favouriteproducts .favproducts{
+        display: flex !important;
+        width: 280px !important;
+        margin: 0px !important;
+        justify-content: center !important;
+        padding: 20px !important;
+    }
+    .favouriteproducts .productimg1{
+        margin: 0px !important;
+        padding: 0PX !important;
+        margin-left: 80px !important;
+    }
+    .favouriteproducts .productimg2{
+        display: none !important;
+    }
+    .favouriteproducts .productimg3{
+        display: none !important;
+    }.favouriteproducts .productimg4{
+        display: none !important;
+    }
+    .Ourservices{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 300px !important;
+    }
+    footer{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 380px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        height: 1500px !important;
+        
+    }
+    footer .subscribe{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 300px !important;
+        height: 300px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    footer .subscribe .subs_email{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .capitalshop_categories{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 250px !important;
+    }
+
 }
 /*colorlib*/
 header{
@@ -369,6 +544,9 @@ margin-left: 70px;
     /*herosection*/
     
 .herosection{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
     background-image: url(/images/Screenshot\ 2024-08-03\ 083740.png);
     background-repeat: no-repeat;
     background-size: 1350px;
@@ -860,6 +1038,7 @@ footer{
     background-color: #131313;
      width: 1350px;
      padding-left: 110px;
+     height: auto;
 }
 .subscribe{
     width: 1100px;
