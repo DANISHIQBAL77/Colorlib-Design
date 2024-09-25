@@ -10,7 +10,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         height: 55px !important;
-        width: 380px !important;
+        width: 430px !important;
         margin: 0px !important;
         justify-content: space-between !important;
     }
@@ -61,6 +61,10 @@ body{
         width: 30px !important;
         padding: 0px !important;
     }
+    .headerimages .img4:hover{
+    background-color: black !important;
+    cursor: pointer !important;
+}
     .about{
         display: none !important
     }
@@ -94,7 +98,7 @@ body{
         display: none !important;
     }
     .sale{
-        width: 380px !important;
+        width: 430px !important;
         margin: 0px !important;
     }
     .sale .content{
@@ -109,41 +113,81 @@ body{
     .herosection{ 
         display: flex !important;
         flex-wrap: wrap !important;
-        width: 400px !important;
-        background-image: url(/images/Screenshot\ 2024-08-03\ 083740.png) !important;
-        background-size: 400px !important;
-        height: 600px !important;
+        width: auto !important;
+        background-image: url(h1_hero1.jpg.webp) !important;
+        background-size: 1030px !important;
+        height: 400px !important;
+        padding: 100px !important;
+        padding-right: 200px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        margin-left: -350px !important;
+    }
+    .herosection h2{
+        width: 300px !important;
+        font-size: 27px !important;
+        margin-top: 30px !important;
+    }
+    .herosection .fashionsale{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .herosection p{
+        width: 310px !important;
+        margin-left: 10px !important;
+    }
+    .herosection .p2{
+        width: 310px !important;
+        margin-left: 10px !important;
     }
     .herosection .hero_content{
         width: 200px !important;
         margin: 0px !important ;
         padding: 40px 0px 0px 10px !important;
+        font-size: 10px !important;
+        margin-left: 350px !important;
     }
     .fashion{
-        width: 400px !important;
-        margin: 15px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 420px !important;
+        padding-left: 17px !important;
+        height: 1000px !important;
+        padding-bottom: 150px !important;
     }
     .fashion .mensfashion{
-        background-size: 500px !important;
-        height: 430px !important;
+        background-size: 410px !important;
+        height: 270px !important;
+        width: 450px !important;
         padding-top: 110px !important;
     }
     .fashion .womenfashion{
-        display: none !important;
+        background-size: 410px !important;
+        height: 270px !important;
+        width: 450px !important;
+        padding-top: 110px !important;
     }
     .fashion .babyfashion{
-        display: none !important;
+        background-size: 395px !important;
+        height: 270px !important;
+        width: 450px !important;
+        padding-top: 110px !important;
+    }
+    .fashion p{
+        margin: 190px 0 0 120px !important;
     }
     .weeklytrending{
-        width: 380px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 430px !important;
         margin: 0px !important;
+        margin-bottom: 50px !important;
+        border: none !important;
     }
     .weeklytrending h2{
         width: 900px !important;
         font-size: 25px !important;
-    }
-    .weeklytrending a{
-        display: none !important;
+        margin-left: 20px !important;
     }
     .products{
         width: 380px !important;
@@ -151,7 +195,7 @@ body{
         height: 700px !important;
     }
     .products .girlimg1{
-        margin-left: 20px !important;
+        margin-left: 50px !important;
         width: 400px !important;
         height: 600px !important;
         background-size: 400px !important;
@@ -172,9 +216,23 @@ body{
     .testimonial{
         display: flex !important;
         flex-wrap: wrap !important;
-        width: 400px !important;
+        width: 430px !important;
         margin: 0px !important;
-         padding: 0px !important;
+        padding: 0px !important;
+        padding-left: 20px !important;
+    }
+    .testimonial p{
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 400px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 16px !important;
+    }
+    .testimonial .designer_info p{
+        width: 200px !important;
     }
     .testimonial .leftarrow{
         display: none !important;
@@ -185,7 +243,9 @@ body{
     .favouriteproducts{
         margin: 0px !important;
         padding: 0PX !important;
-        width: 400px !important;
+        width: 430px !important;
+        padding-left: 30px !important;
+        margin-top: 30px !important;
     }
     .favouriteproducts .favproducts{
         display: flex !important;
@@ -469,6 +529,9 @@ header .img4 img{
     margin: auto;
     padding-bottom: 10px;
     height: 70px;
+    position: sticky;
+    top: 0px;
+    background: white;
 }
 .logo{
     margin-left: 100px;
@@ -547,11 +610,11 @@ margin-left: 70px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/images/Screenshot\ 2024-08-03\ 083740.png);
+    background-image: url(Screenshot\ 2024-08-03\ 083740.png);
     background-repeat: no-repeat;
     background-size: 1350px;
     margin: 0px;
-    padding: 0px;  
+    padding-bottom: 40px; 
     font-family: sans-serif;
     margin: auto;
 }
@@ -609,7 +672,7 @@ margin-left: 70px;
 .fashion .mensfashion{
     height: 300px;
     width: 350px;
-    background-image: url(/images/mens\ fashion.jpg);
+    background-image: url(mens\ fashion.jpg);
     background-repeat: no-repeat;
     background-size: 350px;
     margin-right: 25px;
@@ -625,7 +688,7 @@ margin-left: 70px;
 .fashion .womenfashion{
     height: 300px;
     width: 350px;
-    background-image: url(/images/womenfashion.jpg);
+    background-image: url(womenfashion.jpg);
     background-repeat: no-repeat;
     background-size: 350px;
     margin-right: 25px;
@@ -641,7 +704,7 @@ margin-left: 70px;
 .fashion .babyfashion{
     height: 300px;
     width: 350px;
-    background-image: url(/images/babyfashion.jpg);
+    background-image: url(babyfashion.jpg);
     background-repeat: no-repeat;
     background-size: 350px;
 }
@@ -677,7 +740,6 @@ margin-left: 70px;
     height: 50px; 
     margin: 20px 0px 0px 50px;
 }
-
 .weeklytrending a{
     display: flex;
     font-family: sans-serif;
@@ -744,7 +806,7 @@ margin-left: 70px;
     margin: auto;
 }
 .girlimg1{
-    background-image: url(/images/girl1.jpg);
+    background-image: url(girl1.jpg);
     background-repeat: no-repeat;
     margin-left: 0px;
     background-size: 255px;
@@ -753,21 +815,21 @@ margin-left: 70px;
     margin-right: 20px;
 }
 .girlimg2{
-    background-image: url(/images/girl2.webp);
+    background-image: url(girl2.webp);
     background-repeat: no-repeat;
     background-size: 255px;
     width: 255px;
     height: 310px;
     margin-right: 20px;
 }.girlimg3{
-    background-image: url(/images/girl3.webp);
+    background-image: url(girl3.webp);
     background-repeat: no-repeat;
     background-size: 255px;
     width: 255px;
     height: 310px;
     margin-right: 20px;
 }.girlimg4{
-    background-image: url(/images/girl4.jpg);
+    background-image: url(girl4.jpg);
     background-size: 255px;
     width: 255px;
     height: 310px;
@@ -815,18 +877,16 @@ margin-left: 70px;
 
 }
 .testimonial p{
-    max-width: 680px;
+    max-width: 580px;
     font-family: sans-serif;
     font-size: 22px;
+    font-weight: 200;
     margin-top: -20px;
+    
 }
 .designer_info{
     display: flex;
     width: 270px;
-}
-.designer_info p{
-    font-family: sans-serif;
-    
 }
 .designer_info p:nth-child(1){
     font-size: 14px;
@@ -868,7 +928,7 @@ margin-left: 70px;
     margin: auto;
 }
 .productimg1{
-    background-image: url(/images/productone.jpg);
+    background-image: url(productone.jpg);
     background-repeat: no-repeat;
     margin-left: 0px;
     background-size: 255px;
@@ -877,21 +937,21 @@ margin-left: 70px;
     margin-right: 20px;
 }
 .productimg2{
-    background-image: url(/images/product\ two.jpg);
+    background-image: url(product\ two.jpg);
     background-repeat: no-repeat;
     background-size: 255px;
     width: 255px;
     height: 310px;
     margin-right: 20px;
 }.productimg3{
-    background-image: url(/images/product\ three.jpg);
+    background-image: url(product\ three.jpg);
     background-repeat: no-repeat;
     background-size: 255px;
     width: 255px;
     height: 310px;
     margin-right: 20px;
 }.productimg4{
-    background-image: url(/images/product\ four.jpg);
+    background-image: url(product\ four.jpg);
     background-size: 255px;
     width: 255px;
     height: 310px;
@@ -921,7 +981,7 @@ margin-left: 70px;
     display: flex;
 }
 .newsimages .img1{
-    background-image: url(/images/newsimg1.jpg);
+    background-image: url(newsimg1.jpg);
     background-repeat: no-repeat;
      height: 460px;
      width: 360px; 
@@ -965,14 +1025,14 @@ margin-left: 70px;
     transition: all 0.3s;
 }
 .newsimages .img2{
-    background-image: url(/images/newsimg2.jpg);
+    background-image: url(newsimg2.jpg);
     background-repeat: no-repeat;
      height: 460px;
      width: 360px; 
      background-size: 360px;
      margin-right: 20px;
 }.newsimages .img3{
-    background-image: url(/images/newsimg3.jpg);
+    background-image: url(newsimg3.jpg);
     background-repeat: no-repeat;
      height: 460px;
      width: 360px; 
@@ -1036,7 +1096,7 @@ margin-left: 70px;
 
 footer{
     background-color: #131313;
-     width: 1350px;
+     width: 90vwpx;
      padding-left: 110px;
      height: auto;
 }
@@ -1078,7 +1138,8 @@ footer{
     padding-left: 30px;
     font-family: sans-serif;
     font-size: 15px;
-    border-style: unset; 
+    border-style: unset;
+    outline: none;
 }
 .subs_email button{
     color: #FFFFFF;
