@@ -240,6 +240,22 @@ body{
     .testimonial .rightarrow{
         display: none !important;
     }
+    .latestnews_section{
+        display: flex !important;
+        width: 430px !important;
+        height: 1700px !important;
+    }
+    .latestnews_section .newsimages{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 300px !important;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    .latestnews_section .newsimages .img2{
+        padding-bottom: 30px !important;
+        margin-top: 30px !important;
+    }
     .favouriteproducts{
         margin: 0px !important;
         padding: 0PX !important;
@@ -972,6 +988,7 @@ margin-left: 70px;
     padding-bottom: 20px;
     margin: auto;
     margin-bottom: 50px;
+    height: 600px;
 }
 .latestnews_section h2:nth-child(1){
     font-size: 34px;
